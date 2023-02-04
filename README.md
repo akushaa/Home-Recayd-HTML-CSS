@@ -7,4 +7,3 @@
                  ╚═╝░░╚═╝╚══════╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░
                  
 Home links com animaçao e ascii.
-    Home-Recayd-HTML-CSS
