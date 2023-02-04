@@ -1,0 +1,104 @@
+
+body
+     {
+     background-color: rgb(10, 19, 15);
+     animation: colorchange 5s ease-in-out infinite;
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+    
+.ascii 
+    {
+     animation: glow 1s ease-in-out infinite alternate;                                     
+     font-family: monospace;
+     color: greenyellow;
+     position: absolute;
+     top: 20px;
+     left: 40%;
+     transform: translateX(-50%);
+    }
+
+
+
+@keyframes glow 
+    {
+     from {
+     color: greenyellow;
+     }
+     to {
+      color: yellowgreen;
+     }
+    }   
+
+/*             Keyframes                       */
+
+    @keyframes colorchange {
+  50% {
+    background-color: rgb(10, 19, 20);
+  }
+  100% {
+    background-color: rgb(5, 19, 15);
+  }                            
+}
+div
+    {
+                                          
+     font-size: 11px;
+     font-family: monospace;
+     color: white;
+                                          
+    }
+                                          
+footer
+    {                                         
+     color: greenyellow;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     font-family: "Ubuntu", sans-serif;
+     font-size: 13px;
+     animation: glow 1s ease-in-out infinite alternate;
+     top: 724px;
+     left: 50%;
+     transform: translateX(-50%);
+    }
+                                          
+.container
+    {                                     
+     display: flex;
+     align-items: center;
+     height: 100vh;
+     position: absolute;
+     top: -100px;
+     left: 50%;
+     transform: translateX(-50%);
+    }
+                                          
+.button
+    {                                          
+     padding: 1em 9em;
+     text-align: center;
+     background-color: greenyellow;
+     color: rgb(0, 0, 0);
+     border: none;
+     border-radius: 3px;
+     text-decoration: none;
+     cursor: pointer;
+     font-weight: bolder;
+     font-family: monospace;
+     box-shadow: 0px 0px 10px 5px rgba(173,255,47,0.1);
+     opacity: 1;
+     transition: opacity 2s;
+    }
+
+.button:hover{
+    opacity: 0.2;
+}    
+                                          
+body 
+    {                                      
+     width: 500px;
+     height: 500px;
+     overflow: hidden;                                         
+    }
